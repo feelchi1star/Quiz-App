@@ -118,7 +118,7 @@ a {
 @media screen and (max-width: 630px) {
   :root {
     --grid-width: 99%;
-    --grid-height: 75vh;
+    --grid-height: 90vh;
     --h1: 40px;
     --question-font-size: 20px;
     --p: var(--background-bg);
