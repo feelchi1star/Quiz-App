@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="./app.css" />
+  </head>
+  <body>
+    <div class="grid">
+      <div id="quiz">
+        <h1>Quiz</h1>
+        <hr style="margin-top: 20px" />
+        <p id="question"></p>
+
+        <!-- The Choices button -->
+        <div class="button">
+          <!-- choice 1 -->
+          <button id="btn0">
+            <span id="choice0"></span>
+          </button>
+          <!-- choice 2 -->
+          <button id="btn1">
+            <span id="choice1"></span>
+          </button>
+          <!-- choice 3 -->
+          <button id="btn2">
+            <span id="choice2"></span>
+          </button>
+          <!-- choice 4 -->
+          <button id="btn3">
+            <span id="choice3"></span>
+          </button>
+        </div>
+        <hr style="margin-top: 50px" />
+        <footer>
+          <p id="progress">Question x of y</p>
+        </footer>
+      </div>
+    </div>
+
+    <div class="owner">
+      &copy;
+      <a
+        href="http://www.github.com/feelchi1star"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="feelchi"
+      >
+        Feelchi1star Inc. 2022</a
+      >
+      Design by Felix Chinonso Emmanuel
+    </div>
+  </body>
+  <script src="./Appjs/quiz_controller.js" defer></script>
+  <script src="./Appjs/questionList.js" defer></script>
+  <script src="./Appjs/app.js" defer></script>
+  <script src="./Appjs/question.js"></script>
+</html>

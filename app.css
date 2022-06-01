@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  color: var(--background-bg);
+}
+/* Css Variables */
+:root {
+  --background-bg: #fff;
+  --grid-bg: #100e1d;
+  --box-shadow-color: #2cfffba6;
+  --grid-width: 600px;
+  --grid-height: 500px;
+  --h1: 60px;
+  --white: #fff;
+  --question-font-size: 30px;
+  --p: var(--background-bg);
+  --btn-bg: #778897;
+  --btn-w: 200px;
+}
+
+body {
+  background-color: rgb(5, 104, 117);
+}
+/* Grid Section */
+.grid {
+  width: var(--grid-width);
+  height: var(--grid-height);
+  margin: 0 auto;
+  padding: 10px 50px 50px 50px;
+  border-radius: 50px;
+  background-color: var(--grid-bg);
+  box-shadow: 3px 2px 3px var(--box-shadow-color);
+  border: 2px solid var(--box-shadow-color);
+}
+/* Grid H1 tag */
+.grid h1 {
+  font-family: sans-serif;
+  color: var(--white);
+  padding: 2px 0px;
+  border-radius: 50px;
+  font-size: var(--h1);
+  text-align: center;
+  background-color: #57636e;
+}
+/* Question  */
+.grid #question {
+  font-family: sans-serif;
+  color: var(--question-font-size);
+  color: var(--p);
+}
+/* Buttons Div */
+.button {
+  margin-top: 30px;
+}
+/* button tags */
+#btn0,
+#btn1,
+#btn2,
+#btn3 {
+  background-color: var(--btn-bg);
+  width: var(--btn-w);
+  font-size: 20px;
+  color: var(--white);
+  border: 1px solid #1d3e6e;
+  border-radius: 50px;
+  padding: 10px 10px;
+  margin: 10px 40px 10px 0px;
+}
+/* Button hover effect */
+#btn0:hover,
+#btn1:hover,
+#btn2:hover,
+#btn3:hover {
+  cursor: pointer;
+  background-color: #57636e;
+}
+/* Button Focus */
+#btn0:focus,
+#btn1:focus,
+#btn2:focus,
+#btn3:focus {
+  outline: 0;
+}
+
+/* Progress Bar */
+#progress {
+  color: var(--white);
+  font-size: 16px;
+}
+
+/* Result Page */
+
+.lead-red {
+  background-color: red;
+  padding: 12px;
+  width: 200px;
+  border-radius: 10px;
+  outline: none;
+  transition: 0.9s;
+}
+.lead-green {
+  padding: 12px 12px 12px 10px;
+  background-color: green;
+  border-radius: 10px;
+  outline: none;
+  transition: 1.5s;
+  width: 70%;
+}
+/* Footer design */
+a {
+  text-decoration: none;
+}
+.owner {
+  text-align: center;
+  bottom: 10px;
+  position: absolute;
+  margin: 0px 0px auto 30vw;
+}
+@media screen and (max-width: 630px) {
+  :root {
+    --grid-width: 99%;
+    --grid-height: 75vh;
+    --h1: 40px;
+    --question-font-size: 20px;
+    --p: var(--background-bg);
+    --btn-w: 200px;
+  }
+  .owner {
+    text-align: center;
+    margin: 0;
+    left: 12px;
+  }
+}
