@@ -124,7 +124,7 @@ a {
     --h1: 40px;
     --question-font-size: 20px;
     --p: var(--background-bg);
-    --btn-w: 100px;
+    --btn-w: 125px;
   }
   .owner {
     text-align: left;
